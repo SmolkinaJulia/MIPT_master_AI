@@ -1,0 +1,19 @@
+s = input()
+if (s.startswith("http")):
+    s = s.replace("http","http://")
+else:
+    s = s.replace("ftp","ftp://")
+
+print("s = ",s)
+print('len(s)=',len(s))   
+t1 = s.rfind("ru")
+print("t1=",t1)
+s = s[0:t1]+".ru"
+
+
+t2 = s.find(".ru")
+print("t3=",t3)
+
+if (s[t2+2] != 0):
+    s = s.replace(".ru", ".ru/")
+print(s)

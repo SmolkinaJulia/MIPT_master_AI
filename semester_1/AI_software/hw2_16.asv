@@ -1,0 +1,8 @@
+%hw2_16
+%1
+syms x(t);
+dsolve(diff(x,t,2)+2*diff(x,t)+x==0)
+
+%2
+syms s a x;
+

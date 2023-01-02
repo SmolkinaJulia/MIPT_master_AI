@@ -1,0 +1,12 @@
+%hw2_15
+%1
+syms x y;
+S = simplify((x+y)/(1/x +1/y));
+
+%2
+syms t g h;
+f_1(t) = 4*t*h^2+20*t-5*g
+f_1(0)
+f_1(t) = 4*t*h^2+20*t-5*g
+f_1(0)
+

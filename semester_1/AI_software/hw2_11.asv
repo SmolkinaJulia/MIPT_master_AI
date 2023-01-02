@@ -1,0 +1,20 @@
+%hw2-11
+rate = [1 1 1];
+price =[100 30 10];
+%rate(3)
+income(rate,price)
+function[week_income] = income(rate,price)
+
+    for i=1:length(rate)
+        for j=1:length(price)
+            if(i == j)
+                product_income_week = rate(i)*price(j)*8*2*6;
+                %smena_income = smena_income + rate(i)*price(j)*8;
+                %day_income = day_income + smena_income*2;
+                %week_income = week_income + day_income*6;
+            end
+        end
+        week_income = 
+     end
+  end
+

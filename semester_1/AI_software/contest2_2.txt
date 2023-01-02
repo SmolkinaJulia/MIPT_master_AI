@@ -1,0 +1,17 @@
+import string
+
+n = input()
+t = ""
+pos = n.find("WUB")
+while(pos + 1):
+    n = n.replace("WUB", "1")
+    pos = n.find("WUB")
+   
+for i in range(len(n)):
+    if (n[i] == '1' and n[i - 1] != '1'):
+        t = t + " "
+        #print("")
+    elif (n[i] != '1'):
+        t = t + n[i]
+        #print(n[i]) 
+print(t)

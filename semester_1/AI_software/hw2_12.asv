@@ -1,0 +1,21 @@
+%hw2_12
+
+N = randi(90,6);
+size_N = size(N);
+size_N(1);
+
+
+function matr = transform(n)
+size_n = size(n);
+matr = zeros(size_n,size_n);
+    for i = 1:size_n
+        for j = 1:size_n
+            if( i == j)
+                matr(i,j) = n(i,j);
+
+            end
+            if (i + j = N+1
+
+        end
+    end
+end
