@@ -55,5 +55,5 @@
 Компьютерные модели рассуждений в интеллектуальном анализе данных
 
 
-
+Твкже большинство материалов хранятся на гугл диске : https://drive.google.com/drive/folders/1TME5I5SOdPABVhc4-8k6koHdWJEGX9YA?usp=sharing
 
